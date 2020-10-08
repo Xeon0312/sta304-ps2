@@ -1,7 +1,8 @@
 ---
 title: "Liberal Party Should Pay Attention on Crime Problem to Attract Their Voters in Next Coming Election"
 subtitle: "STA304 - Fall 2020"
-author: "Ziyue Yang"
+author: "Liu Yijia, Jiayi Yu, Ziyue Yang and Boyu Cao"
+
 # Student Number: 1004804759
 date: "03/10/2020"
 output: pdf_document
@@ -262,3 +263,5 @@ employment_dist_dir_fill
 ![Q2.4,5](./screenshot/45.png)
 
 ![Q3.1,2](./screenshot/12.png)
+
+github repo: https://github.com/Xeon0312/sta304-ps2

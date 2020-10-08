@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.10.8)  9 OCT 2020 01:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.10.8)  9 OCT 2020 02:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -553,21 +553,21 @@ Package rerunfilecheck Info: File `304-simulating.out' has not changed.
 Here is how much of TeX's memory you used:
  10807 strings out of 481864
  154848 string characters out of 5930161
- 444190 words of memory out of 5000000
+ 444415 words of memory out of 5000000
  26896 multiletter control sequences out of 15000+600000
  577743 words of font info for 67 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 60i,6n,66p,248b,333s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,6n,66p,248b,331s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/Users/xeon/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/Users
 /xeon/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</Users/xeon/Libr
 ary/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></Users/xeon/Library/Ti
 nyTeX/texmf-dist/fonts/type1/public/lm/lmr10.pfb></Users/xeon/Library/TinyTeX/t
 exmf-dist/fonts/type1/public/lm/lmr12.pfb></Users/xeon/Library/TinyTeX/texmf-di
 st/fonts/type1/public/lm/lmr17.pfb>
-Output written on 304-simulating.pdf (13 pages, 698819 bytes).
+Output written on 304-simulating.pdf (13 pages, 700445 bytes).
 PDF statistics:
- 220 PDF objects out of 1000 (max. 8388607)
- 175 compressed objects within 2 object streams
+ 221 PDF objects out of 1000 (max. 8388607)
+ 176 compressed objects within 2 object streams
  47 named destinations out of 1000 (max. 500000)
  117 words of extra memory for PDF output out of 10000 (max. 10000000)
 
