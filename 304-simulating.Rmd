@@ -1,5 +1,5 @@
 ---
-title: "The policy Ontario people care the most for 2022 Ontario General Election"
+title: "Liberal Party Should Pay Attention on Crime Problem to Attract Their Voters in Next Coming Election"
 subtitle: "STA304 - Fall 2020"
 author: "Ziyue Yang"
 # Student Number: 1004804759
@@ -8,27 +8,90 @@ output: pdf_document
 ---
 
 # Executive Summary:
-  Petit Poll’s October polling update aim to help Ontario Liberal party to figure out what kind of policy do people care the most. We developed a survey on Google Form and simulated it in relation to the real-word circumstances, this means we are simulating based on the previous facts for example the percentage of voting in each party. We found that … This is important because the simulation result can be a reference for Liberal party to know what promise they make during the election will favor people in Ontario the most. However, one weakness is that our report is not based on the real respondent but only an assumption, so the actual result may vary from our result. Liberal party can take this survey as a template to release a survey on XXX to gain some true respondent.
+  Petit Poll’s October polling update aims to help the Ontario Liberal party to figure out what kind of problem in Ontario do people care about the most. We developed a survey on Google Form and simulated it in relation to the real-word circumstances, this means we are simulating based on the previous facts for example the percentage of voting in each party. We found that Crime is the most challenging problem for people in Ontario. This is important because the simulation result can be a reference for the Liberal party to know what promise they make during the election will favour people in Ontario the most. However, one weakness is that our report is not based on the real respondent but only an assumption, so the actual result may vary from our result. In this case, the liberal party can take this survey as a template to release a survey on social media to gain some true respondent.
   
 # Introduction
-  The 43rd Ontario General Election will be held on or before June 2, 2022. From 2003-2014, Liberal party was elected as premier in Ontario for more than 10 years (TVO, 2018). During the 2018 Ontario election, the Ontario Progressive Conservative Party, led by Doug Ford, won the majority government with 76 out of 124 seats, while the Ontario Liberal Party, led by Kathleen Wynne, recording the worst results in the party’s 161-year history and the worst results of any ruling party in Ontario with only, which dropped from 55 seats to only 7 seats (Dentons, 2018). After changing the leader of the Ontario Liberal Party, it is important for Liberal Party to gain more seats in the next coming election. One way for doing this is to find out what kind of policy do people in Ontario care so that the Liberal party would know what campaign promises our government should pursue, if elected.
-  We developed a survey on Google Form and simulated it in relation to the real-word circumstances to find out which policy will interest people in Ontario the most.
+  The 43rd Ontario General Election will be held on or before June 2, 2022. From 2003-2014, the Liberal party was elected as premier in Ontario for more than 10 years (TVO, 2018). During the 2018 Ontario election, the Ontario Progressive Conservative Party, led by Doug Ford, won the majority government with 76 out of 124 seats, while the Ontario Liberal Party, led by Kathleen Wynne, recording the worst results in the party’s 161-year history, which dropped from 55 seats to only 7 seats (Dentons, 2018). After changing the leader of the Ontario Liberal Party, it is important for the Liberal Party to gain more seats in the next coming election. One way for doing this is to find out what kind of problem in Ontario do people care about so that the Liberal party would know what campaign promises to pursue if elected.
+  We developed a survey on Google Form and simulated it in relation to the real-word circumstances to find out what kind of problem worried people in Ontario the most. We use the simple random sampling method, which means everyone in Ontario has an equal chance of being selected. We used a bar plot to find out which problem is the most challenging for people in Ontario. The bar plot shows “Crime” has the highest count among seven different categories. About 90 people among 500 samples think Crime is the problem that the government should put more attention on. 
+  Use this graph as a reference, the Liberal party can decide on which topic should their campaign promise focus on to attract the voters in Ontario. This graph is a guideline to see which area needs to be improved for the Ontario government. The government who can take action on the improvement may bring people in Ontario a better life. One limitation of this report is that all the results are from simulation but not a real word reflection, although we simulated under the real-world circumstances, it may be different from the real respondents. One suggestion for the party would be to take this survey as a template and release an official survey online to gather reflection from people. 
+
 
 # Discussion 
 
-## Survey methodology 
+## Survey methodology
+  In the survey, the population we wish to generalize the findings from is everyone in Ontario. The sampling frame for the Liberal party maybe everyone on their phone number list or everyone who leaves their email address to the Liberal party. Lastly, the sample would be people who take this survey. The sampling method we use for our survey is a simple random sample. In a simple random sample, every member of the population has an equal chance of being selected, which will eliminate the bias.
+  
+  In considering how to reach the desired respondent, the easiest way is to poll online survey on social media or advertise the survey on the provincial newsletters. The liberal party can also send a dedicated email to their subscribers and people who left their email in the party. Evidence suggests that sending a dedicated email asking people to complete a survey is usually the best way to get a response. Before the election date, the party can also record a short video and request participation in the survey. The ways to reach the respondents, in this case, are easy and straight forward, and the cost will be about $30,000 (SurveyMonkey, 2020).
+  
+  Nonresponse bias always happened in a survey. It occurs when some respondents included in the sample do not respond. It decreases the sample size, which leads to an increase of statistical variance. Moreover, some sensitive problems that people refuse to answer will impact our critical results (SurveyMonkey, 2020). We'll take the following steps to reduce non-response bias in our survey:
+    
+  1.	All the questions are needed to be filled out. If respondents have some ignored questions, the questionnaire cannot be submitted. It helps eliminate non-response bias resulted from carelessness.
+    
+  2.	The questions of the survey are short and simple. We only select the basic background information and the topic we are concerned about the most. 
+    
+  3.	We'll take some pre-tests in the selected questionnaire platform to ensure our survey runs smoothly for our respondents so that they are more likely to accept our survey request.
+    
+  4.	We'll extend our survey collection period to two weeks or more to provide our potential respondents more flexibility to fill out the survey. And we'll send some reminders during the collection time to reduce non-response bias as many as possible.
+  
+  Finally, we take the following measure to protect respondent privacy:
+    
+  1.	We set an option called "prefer not to say " in the sensitive questions of personal background.
+    
+  2.	We promise that personal information cannot be provided to other organizations or for other purposes.
+    
+  3.	The information collected from respondents cannot be altered by the researcher.
+
+## Results
+
+  
+
+\newpage
+
+# Reference
+
+  - Alamenciak, T., Author Portrait Image Tim Alamenciak, Portrait Image Tim Alamenciak, Image, P., Alamenciak, T., Description TVO Staff, & Follow @TheAgenda !function (d. (n.d.). The good, the bad, and the ugly: A look back at 15 years of Liberal government. Retrieved October 08, 2020, from https://www.tvo.org/article/the-good-the-bad-and-the-ugly-a-look-back-at-15-years-of-liberal-government
+
+  - How to avoid nonresponse errors. (n.d.). Retrieved October 08, 2020, from https://www.surveymonkey.com/mp/how-to-avoid-nonresponse-error/
+
+  - JJ Allaire and Yihui Xie and Jonathan McPherson and Javier Luraschi and Kevin Ushey and Aron Atkins and Hadley Wickham and Joe Cheng and Winston Chang and Richard Iannone (2020). rmarkdown: Dynamic Documents for R. R package version 2.4. URL
+https://rmarkdown.rstudio.com.
+
+  - Online Survey Software: Create Your Survey in Minutes " FluidSurveys. (2016, June 21). Retrieved October 08, 2020, from http://fluidsurveys.com/university/how-to-ensureyour-respondents-privacy/
+  
+  - R Core Team (2020). R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria. URL
+https://www.R-project.org/.
+
+  - Stephenson, L., Harell, A., Rubenson, D., & Loewen, P. (2020, May 01). 2019 Canadian Election Study - Online Survey. Retrieved October 08, 2020, from https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FDUS88V
+
+  - SurveyMonkey. (n.d.). Pick Your Audience. Retrieved October 08, 2020, from https://www.surveymonkey.com/collect/audience/preview/
+
+  - Top 25 Political Survey Questions for Questionnaires. (2020, May 17). Retrieved October 08, 2020, from https://www.questionpro.com/blog/political-survey-questions/
+
+  - Wickham et al., (2019). Welcome to the tidyverse. Journal of Open Source Software, 4(43), 1686,
+https://doi.org/10.21105/joss.01686
+
+  - 2018 Ontario Election summary. (n.d.). Retrieved October 08, 2020, from https://www.dentons.com/en/insights/alerts/2018/june/11/2018-ontario-election-summary
+
+  - 43rd Ontario general election. (2020, September 26). Retrieved October 08, 2020, from https://en.wikipedia.org/wiki/43rd_Ontario_general_election
+
+\newpage
+
+# Appendix
+
 
 ```{r setup, include=FALSE}
 # Setting seed as the last 4 digits of my student number
 set.seed(4759)
 library(tidyverse)
 # Global settings for figure sizes and echo.
-require("knitr")
-opts_chunk$set(tidy.opts=list(width.cutoff=60),tidy=TRUE)
-opts_chunk$set(engine = "R")
-knitr::opts_chunk$set(echo = T)
+knitr::opts_chunk$set(echo = FALSE, fig.pos = 'H')
 knitr::opts_chunk$set(message = F)
 knitr::opts_chunk$set(warning = F)
+library(tibble)
+library(dplyr)
+library(ggplot2)
+require(scales)
+library(ggmap)
 ```
 
 
@@ -80,7 +143,7 @@ n <- 500
 background <- tibble(basis = sample(x = basis, size=n, replace=TRUE), 
              citizenship = sample(x=citizenship, size=n, replace=TRUE, prob = c(0.8, 0.1, 0.1)),
              decade_born = sample(x=decade, size=n, replace=TRUE),
-             education_level = sample(x=education, size=n, replace=TRUE, prob = c()), # [Education]
+             education_level = sample(x=education, size=n, replace=TRUE, prob = c()),
              gender = sample(x=gender, size=n, replace=TRUE, prob = c(0.4915, 0.4915, 0.017))# based on the referenced, that there exists 1.7% population identified them 'Non-binary' in Canada [NonBin].
              , employment_status = sample(x=employment, size=n, replace=TRUE))
 # [Education] Reference https://www12.statcan.gc.ca/census-recensement/2016/dp-pd/hlt-fst/edu-sco/Table.cfm?Lang=E&T=11&Geo=00&SP=1&view=2&age=2&sex=1
@@ -88,10 +151,8 @@ background <- tibble(basis = sample(x = basis, size=n, replace=TRUE),
 # Simulating n samples answering section 'Political Leanings'
 political_leaning <- tibble(last_vote = sample(x=last_vote, size=n, replace=TRUE, prob=c(0.24, 0.24, 0.24, 0.24, 0.04)),
                             likely_vote = sample(x=likely_vote, size=n, replace=TRUE),
-                            # party_vote = sample(x=party, size=n, replace=TRUE),
                             problem_focused = sample(x=problem, size=n, replace=TRUE),
                             right_direction = sample(x=right_dir, size=n, replace=TRUE, prob = c(0.495, 0.495, 0.01)),
-                            # Based on the proportion of seats won.
                             will_vote = sample(x=party, size=n, replace=TRUE, prob = c(0.65, 0.30, 0.04, 0.005, 0.005)),
                             )
 # Combining sections' Answers
@@ -108,8 +169,14 @@ election_data <- election_data %>% subset(citizenship=="Canadian Citizen")
 ```{r makeGraph1, echo = FALSE, fig.cap = "Distribution of which parties the samples voted in the previous election", fig.width= 6, fig.height=4}
 # We use ggplot to generate the following figures
 # Plotting the distribution of which parties were voted in the last election
-last_vote_frame <- election_data %>% group_by(last_vote) %>% summarise(count = n(), .group = 'drop')
-last_vote_figure <- ggplot(last_vote_frame, aes(x="last_vote", y=count, fill=last_vote)) + geom_bar(width = 2, stat = "identity") + coord_polar("y", start=0) + xlab("Party Voted")
+last_vote_frame <- election_data %>% group_by(last_vote) %>% summarise(count = n())
+total = sum(last_vote_frame$count)
+last_vote_figure <- ggplot(last_vote_frame, aes(x="last_vote", y=count, fill=last_vote)) +
+  theme_void() +
+  geom_bar(width = 2, stat = "identity") + 
+  coord_polar("y", start=0) + 
+  geom_text(aes(label = paste0(round(count/total*100), "%")), 
+            color="black",position = position_stack(vjust = 0.5))
 last_vote_figure
 ```
 
@@ -121,15 +188,27 @@ benefit
 
 ```{r makeGraph3, echo = FALSE, fig.cap = "Distribution of which parties to vote for in the next election", fig.width= 6, fig.height=4}
 # Distribution of which parties to vote for in the next election.
-next_vote_frame <- election_data %>% group_by(will_vote) %>% summarise(count = n(), .group = 'drop')
-next_vote <- ggplot(next_vote_frame, aes(x="will_vote", y=count, fill=will_vote )) + geom_bar(width = 2, stat = "identity") + coord_polar("y", start=0)
+next_vote_frame <- election_data %>% group_by(will_vote) %>% summarise(count = n())
+total = sum(next_vote_frame$count)
+next_vote <- ggplot(next_vote_frame, aes(x="will_vote", y=count, fill=will_vote )) + 
+  theme_void() +
+  geom_bar(width = 2, stat = "identity") + 
+  coord_polar("y", start=0) + 
+  geom_text(aes(label = paste0(round(count/total*100), "%")), 
+            color="black",position = position_stack(vjust = 0.5))
 next_vote
 # Distribution of which parties to vote for in the next election; colors indicates whether the voter agrees that 
 ```
 
 ```{r makeGraph4, echo = FALSE, fig.cap = "Distribution of age", fig.width= 6, fig.height=4}
-age_dist_problem_fill <- ggplot(election_data, aes(x=decade_born, fill=problem_focused)) + geom_bar()
-age_dist_problem_fill
+problem_focused_frame <- election_data %>% group_by(problem_focused) %>% summarise(count = n())
+total = sum(problem_focused_frame$count)
+problem_focused <- ggplot(problem_focused_frame, aes(x="problem_focused",y=count, fill=problem_focused)) + geom_bar(width = 2, stat = "identity") + 
+  theme_void() +
+  coord_polar("y") +
+  geom_text(aes(label = paste0(round(count/total*100), "%")), 
+            color="black",position = position_stack(vjust = 0.5))
+problem_focused
 
 ```
 
@@ -145,4 +224,3 @@ for (i in 1:9){
 employment_dist_dir_fill <- ggplot(election_data, aes(x=employment_status, fill = problem_focused)) + geom_bar() + coord_flip()
 employment_dist_dir_fill
 ```
-
