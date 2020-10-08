@@ -12,7 +12,7 @@ output: pdf_document
   
 # Introduction
   The 43rd Ontario General Election will be held on or before June 2, 2022. From 2003-2014, the Liberal party was elected as premier in Ontario for more than 10 years (TVO, 2018). During the 2018 Ontario election, the Ontario Progressive Conservative Party, led by Doug Ford, won the majority government with 76 out of 124 seats, while the Ontario Liberal Party, led by Kathleen Wynne, recording the worst results in the party’s 161-year history, which dropped from 55 seats to only 7 seats (Dentons, 2018). After changing the leader of the Ontario Liberal Party, it is important for the Liberal Party to gain more seats in the next coming election. One way for doing this is to find out what kind of problem in Ontario do people care about so that the Liberal party would know what campaign promises to pursue if elected.
-  We developed a survey on Google Form and simulated it in relation to the real-word circumstances to find out what kind of problem worried people in Ontario the most. We use the simple random sampling method, which means everyone in Ontario has an equal chance of being selected. We used a bar plot to find out which problem is the most challenging for people in Ontario. The bar plot shows “Crime” has the highest count among seven different categories. About 90 people among 500 samples think Crime is the problem that the government should put more attention on. 
+  We developed a survey on Google Form and simulated it in relation to the real-word circumstances to find out what kind of problem worried people in Ontario the most. We use the simple random sampling method, which means everyone in Ontario has an equal chance of being selected. We used a bar plot to find out which problem is the most challenging for people in Ontario. The bar plot shows “Crime” has the highest count among seven different categories. About 150 people among 500 samples think Crime is the problem that the government should put more attention on. 
   Use this graph as a reference, the Liberal party can decide on which topic should their campaign promise focus on to attract the voters in Ontario. This graph is a guideline to see which area needs to be improved for the Ontario government. The government who can take action on the improvement may bring people in Ontario a better life. One limitation of this report is that all the results are from simulation but not a real word reflection, although we simulated under the real-world circumstances, it may be different from the real respondents. One suggestion for the party would be to take this survey as a template and release an official survey online to gather reflection from people. 
 
 
@@ -43,8 +43,21 @@ output: pdf_document
 
 ## Results
 
+  Among the 500 questionnaires we sampled, the number of people who voted for the Liberal Party in the last poll accounted for a maximum of 40%. It was followed by the Conservative Party with 32% of the vote. The NDP and the Green Party received 16% and 9% support respectively (Figure 1). However, in the forecast for a new vote, the number of people willing to vote for the Liberal Party soared to 47% (Figure 3). It also shows that the masses are dissatisfied with the performance of the Conservative Party in Ontario. Statistics confirmed this feedback. 55% of the people expressed dissatisfaction with the current government (Figure 2).
   
+  The Liberal Party needs to strengthen where it did not do well in the previous government. According to our questionnaire survey, crime has become the most concerned issue (Figure 4), accounting for 31%. There were 490 shootings in Toronto last year and the city also set a record for shooting-related injuries, at 248 (JANUARY 1, 2020). The data also proves that crime incidents have been on the rise in recent years and the problem needs to be solved urgently (Figure 6).
+  
+  From the perspective of the answering population, our student population is too large (Figure 5), which may be due to the fact that the questionnaire adopts the form of an online questionnaire, which leads to bias.
 
+
+The Survey link down below: 
+  https://docs.google.com/forms/d/e/1FAIpQLScHpDE2n-2QJevoEdasLFhEeWXmGuGLT8Zq7o2QyoQNS1DzcQ/formResponse
+
+The code that generates the simulated data can be found here:
+  https://github.com/Xeon0312/sta304-ps2/blob/master/simulation-script.R
+  
+The R markdown file that generated this report is here:
+  https://github.com/Xeon0312/sta304-ps2/blob/master/304-simulating.Rmd
 \newpage
 
 # Reference
@@ -73,6 +86,9 @@ https://doi.org/10.21105/joss.01686
   - 2018 Ontario Election summary. (n.d.). Retrieved October 08, 2020, from https://www.dentons.com/en/insights/alerts/2018/june/11/2018-ontario-election-summary
 
   - 43rd Ontario general election. (2020, September 26). Retrieved October 08, 2020, from https://en.wikipedia.org/wiki/43rd_Ontario_general_election
+  
+  - Toronto sees record number of shootings in 2019, but fewer deaths,PUBLISHED (JANUARY 1, 2020)
+https://www.theglobeandmail.com/canada/toronto/article-toronto-sees-record-number-of-shootings-in-2019-but-fewer-deaths/
 
 \newpage
 
@@ -115,19 +131,19 @@ education <- c("No schooling", "Completed elementary school", "Completed high sc
 employment <- c("Working for pay full-time", "Working for pay part-time", "Self-employed", "Unemployed/looking for work", "Student", "Other")
 # If you could vote in this election, which party do you think you will vote for?
 # We use the vector 'party' below
-# party_noncitizen <- c("Liberal", "NDP", "Conserv", "Green", "Other")
+# party_noncitizen <- c("Liberal", "Conservative", "NDP", "Green", "Other")
 # ADD NONCITIZEN?
 # ---
 # Section Political Leanings, citizen
-party <- c("Liberal", "NDP", "Conserv", "Green", "Other")
+party <- c("Liberal", "Conservative", "NDP", "Green", "Other")
 # Which party did you vote in last election?
-last_vote <- c("Liberal", "NDP", "Conserv", "Green", "Other")
+last_vote <- c("Liberal", "Conservative", "NDP", "Green", "Other")
 # Do you think the existing government is going in the right direction to benefit the people of the country?
 right_dir <- c("Yes", "No", "Maybe")
 # How likely are you gonna vote in the upcoming
 likely_vote <- c(1:10)
 # Which party are you gonna vote?
-will_vote <- c("Liberal", "NDP", "Conserv", "Green", "Don't know")
+will_vote <- c("Liberal", "Conservative", "NDP", "Green", "Don't know")
 # What’s the most important problem facing Canada today?
 problem <- c("Economy generally", "Unemployment", "Healthcare", "Crime", "Immigration", "Environmental Issue", "Other")
 # ---
@@ -143,17 +159,17 @@ n <- 500
 background <- tibble(basis = sample(x = basis, size=n, replace=TRUE), 
              citizenship = sample(x=citizenship, size=n, replace=TRUE, prob = c(0.8, 0.1, 0.1)),
              decade_born = sample(x=decade, size=n, replace=TRUE),
-             education_level = sample(x=education, size=n, replace=TRUE, prob = c()),
+             education_level = sample(x=education, size=n, replace=TRUE),
              gender = sample(x=gender, size=n, replace=TRUE, prob = c(0.4915, 0.4915, 0.017))# based on the referenced, that there exists 1.7% population identified them 'Non-binary' in Canada [NonBin].
              , employment_status = sample(x=employment, size=n, replace=TRUE))
 # [Education] Reference https://www12.statcan.gc.ca/census-recensement/2016/dp-pd/hlt-fst/edu-sco/Table.cfm?Lang=E&T=11&Geo=00&SP=1&view=2&age=2&sex=1
 # [NonBin] https://www.statcan.gc.ca/eng/dai/smr08/2015/smr08_203_2015
 # Simulating n samples answering section 'Political Leanings'
-political_leaning <- tibble(last_vote = sample(x=last_vote, size=n, replace=TRUE, prob=c(0.24, 0.24, 0.24, 0.24, 0.04)),
+political_leaning <- tibble(last_vote = sample(x=last_vote, size=n, replace=TRUE, prob=c(0.386, 0.323, 0.184, 0.073, 0.035)),
                             likely_vote = sample(x=likely_vote, size=n, replace=TRUE),
-                            problem_focused = sample(x=problem, size=n, replace=TRUE),
-                            right_direction = sample(x=right_dir, size=n, replace=TRUE, prob = c(0.495, 0.495, 0.01)),
-                            will_vote = sample(x=party, size=n, replace=TRUE, prob = c(0.65, 0.30, 0.04, 0.005, 0.005)),
+                            problem_focused = sample(x=problem, size=n, replace=TRUE, prob = c(0.1,0.05,0.05,0.3,0.1,0.125,0.125)),
+                            right_direction = sample(x=right_dir, size=n, replace=TRUE, prob = c(0.3, 0.6, 0.1)),
+                            will_vote = sample(x=party, size=n, replace=TRUE, prob = c(0.5, 0.3, 0.15, 0.025, 0.025)),
                             )
 # Combining sections' Answers
 election_data <- bind_cols(background, political_leaning)
@@ -182,8 +198,16 @@ last_vote_figure
 
 ```{r makeGraph2, echo = FALSE, fig.cap = "Distribution to question if the existing gov is bringing benefits to country?", fig.width= 6, fig.height=4}
 # Answer distribution to question "Do you think the existing gov' is bringing benefits to country? "
-benefit <- ggplot(election_data, aes(x=right_direction)) + geom_bar()
-benefit
+
+right_direction_frame <- election_data %>% group_by(right_direction) %>% summarise(count = n())
+total = sum(right_direction_frame$count)
+right_direction_figure <- ggplot(right_direction_frame, aes(x="last_vote", y=count, fill=right_direction)) +
+  theme_void() +
+  geom_bar(width = 2, stat = "identity") + 
+  coord_polar("y", start=0) + 
+  geom_text(aes(label = paste0(round(count/total*100), "%")), 
+            color="black",position = position_stack(vjust = 0.5))
+right_direction_figure
 ```
 
 ```{r makeGraph3, echo = FALSE, fig.cap = "Distribution of which parties to vote for in the next election", fig.width= 6, fig.height=4}
@@ -200,7 +224,7 @@ next_vote
 # Distribution of which parties to vote for in the next election; colors indicates whether the voter agrees that 
 ```
 
-```{r makeGraph4, echo = FALSE, fig.cap = "Distribution of age", fig.width= 6, fig.height=4}
+```{r makeGraph4, echo = FALSE, fig.cap = "Distribution of questions people focused on", fig.width= 6, fig.height=4}
 problem_focused_frame <- election_data %>% group_by(problem_focused) %>% summarise(count = n())
 total = sum(problem_focused_frame$count)
 problem_focused <- ggplot(problem_focused_frame, aes(x="problem_focused",y=count, fill=problem_focused)) + geom_bar(width = 2, stat = "identity") + 
@@ -224,3 +248,17 @@ for (i in 1:9){
 employment_dist_dir_fill <- ggplot(election_data, aes(x=employment_status, fill = problem_focused)) + geom_bar() + coord_flip()
 employment_dist_dir_fill
 ```
+
+![Number of shootings in Toronto](./screenshot/crime.png)
+
+![From](./screenshot/quiz.png)
+
+![Q1.1,2,3](./screenshot/123.png)
+
+![Q1.4,5,6](./screenshot/456.png)
+
+![Q2.1,2,3](./screenshot/223.png)
+
+![Q2.4,5](./screenshot/45.png)
+
+![Q3.1,2](./screenshot/12.png)
