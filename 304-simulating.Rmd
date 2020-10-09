@@ -1,136 +1,73 @@
 ---
-title: "Liberal Party Should Pay Attention on Crime Problem to Attract Their Voters in Next Coming Election"
-subtitle: "STA304 - Fall 2020"
-author: "Yijia Liu, Jiayi Yu, Ziyue Yang Boyu Cao"
-
-# Student Number: 1004804759
-date: "03/10/2020"
+title: "Liberal Party Should Pay Attention on Crime Severity to Gain Voters in the Upoming Election"
+author:
+  - Boyu Cao
+  - Jiayi Yu
+  - Yijia Liu
+  - Ziyue Yang
+date: "October 8^th^, 2020"
 output: pdf_document
 ---
 
-# Executive Summary:
-  Petit Poll’s October polling update aims to help the Ontario Liberal party to figure out what kind of problem in Ontario do people care about the most. We developed a survey on Google Form and simulated it in relation to the real-word circumstances, this means we are simulating based on the previous facts for example the percentage of voting in each party. We found that Crime is the most challenging problem for people in Ontario. This is important because the simulation result can be a reference for the Liberal party to know what promise they make during the election will favour people in Ontario the most. However, one weakness is that our report is not based on the real respondent but only an assumption, so the actual result may vary from our result. In this case, the liberal party can take this survey as a template to release a survey on social media to gain some true respondent.
-  
-# Introduction
-  The 43rd Ontario General Election will be held on or before June 2, 2022. From 2003-2014, the Liberal party was elected as premier in Ontario for more than 10 years (TVO, 2018). During the 2018 Ontario election, the Ontario Progressive Conservative Party, led by Doug Ford, won the majority government with 76 out of 124 seats, while the Ontario Liberal Party, led by Kathleen Wynne, recording the worst results in the party’s 161-year history, which dropped from 55 seats to only 7 seats (Dentons, 2018). After changing the leader of the Ontario Liberal Party, it is important for the Liberal Party to gain more seats in the next coming election. One way for doing this is to find out what kind of problem in Ontario do people care about so that the Liberal party would know what campaign promises to pursue if elected.
-  
-  We developed a survey on Google Form and simulated it in relation to the real-word circumstances to find out what kind of problem worried people in Ontario the most. We use the simple random sampling method, which means everyone in Ontario has an equal chance of being selected. We used a bar plot to find out which problem is the most challenging for people in Ontario. The bar plot shows “Crime” has the highest count among seven different categories. About 150 people among 500 samples think Crime is the problem that the government should put more attention on. 
-  
-  Use this graph as a reference, the Liberal party can decide on which topic should their campaign promise focus on to attract the voters in Ontario. This graph is a guideline to see which area needs to be improved for the Ontario government. The government who can take action on the improvement may bring people in Ontario a better life. One limitation of this report is that all the results are from simulation but not a real word reflection, although we simulated under the real-world circumstances, it may be different from the real respondents. One suggestion for the party would be to take this survey as a template and release an official survey online to gather reflection from people. 
-
-
-# Discussion 
-
-## Survey methodology
-  In the survey, the population we wish to generalize the findings from is everyone in Ontario. The sampling frame for the Liberal party maybe everyone on their phone number list or everyone who leaves their email address to the Liberal party. Lastly, the sample would be people who take this survey. The sampling method we use for our survey is a simple random sample. In a simple random sample, every member of the population has an equal chance of being selected, which will eliminate the bias.
-  
-  In considering how to reach the desired respondent, the easiest way is to poll online survey on social media or advertise the survey on the provincial newsletters. The liberal party can also send a dedicated email to their subscribers and people who left their email in the party. Evidence suggests that sending a dedicated email asking people to complete a survey is usually the best way to get a response. Before the election date, the party can also record a short video and request participation in the survey. The ways to reach the respondents, in this case, are easy and straight forward, and the cost will be about $30,000 (SurveyMonkey, 2020).
-  
-  Nonresponse bias always happened in a survey. It occurs when some respondents included in the sample do not respond. It decreases the sample size, which leads to an increase of statistical variance. Moreover, some sensitive problems that people refuse to answer will impact our critical results (SurveyMonkey, 2020). We'll take the following steps to reduce non-response bias in our survey:
-    
-  1.	All the questions are needed to be filled out. If respondents have some ignored questions, the questionnaire cannot be submitted. It helps eliminate non-response bias resulted from carelessness.
-    
-  2.	The questions of the survey are short and simple. We only select the basic background information and the topic we are concerned about the most. 
-    
-  3.	We'll take some pre-tests in the selected questionnaire platform to ensure our survey runs smoothly for our respondents so that they are more likely to accept our survey request.
-    
-  4.	We'll extend our survey collection period to two weeks or more to provide our potential respondents more flexibility to fill out the survey. And we'll send some reminders during the collection time to reduce non-response bias as many as possible.
-  
-  Finally, we take the following measure to protect respondent privacy:
-    
-  1.	We set an option called "prefer not to say " in the sensitive questions of personal background.
-    
-  2.	We promise that personal information cannot be provided to other organizations or for other purposes.
-    
-  3.	The information collected from respondents cannot be altered by the researcher.
-
-## Results
-
+```{r, include=FALSE, cache=FALSE}
+# Importing simulated data
+# knitr::read_chunk('simulation.R')
+source('simulation-script.R')
+```
 
 ```{r setup, include=FALSE}
-# Setting seed as the last 4 digits of my student number
+# Setting seed as the last 4 digits of Ziyue Yang's student number
 set.seed(4759)
 library(tidyverse)
 # Global settings for figure sizes and echo.
 knitr::opts_chunk$set(echo = FALSE, fig.pos = 'H')
 knitr::opts_chunk$set(message = F)
 knitr::opts_chunk$set(warning = F)
-library(tibble)
-library(dplyr)
-library(ggplot2)
 ```
 
+# Executive Summary
 
-```{r "Data Simulation", include=FALSE}
-# We begin with storing choices in vectors
-# which will be used for sampling in the next chunk
-# For section 'citizenship'
-citizenship <- c("Canadian Citizen", "Permanent Resident", "Other")
-# For section 'Personal Background'
-# On what basis do you assess a political candidate?
-basis <- c("News on TV", "Articles in the newspaper", "Attend events where the candidate is addressing the people", "I research all the all the channels before making my choice", "Number of fundraisers the candidate has done in you area", "The family upbringing of the candidate", "Other")
-# What decade were you born in? 
-decade <- c('1940-1949', '1950-1969', '1970-1989', '1990-2004')
-# How do you identify yourself?
-gender <- c("Female", "Male", "Prefer not to say")
-# Does your household income fall into one of these broad ranges?
-income <- c("0", "$1-$50,000", "$50,000-$100,000", "$100,000-$150,000", "$150,000-$200,000", "More then $200,000", "Prefer not to say")
-# What is the highest level education that you have completed?
-education <- c("No schooling", "Completed elementary school", "Completed high school", "Completed technical, community College, CEGEP, collage Classique", "Bachelor's degree", "Master's degree", "Professional degree or doctorate", "Prefer not to say")
-# What is your employment status?
-employment <- c("Working for pay full-time", "Working for pay part-time", "Self-employed", "Unemployed/looking for work", "Student", "Other")
-# If you could vote in this election, which party do you think you will vote for?
-# We use the vector 'party' below
-# party_noncitizen <- c("Liberal", "Conservative", "NDP", "Green", "Other")
-# ADD NONCITIZEN?
-# ---
-# Section Political Leanings, citizen
-party <- c("Liberal", "Conservative", "NDP", "Green", "Other")
-# Which party did you vote in last election?
-last_vote <- c("Liberal", "Conservative", "NDP", "Green", "Other")
-# Do you think the existing government is going in the right direction to benefit the people of the country?
-right_dir <- c("Yes", "No", "Maybe")
-# How likely are you gonna vote in the upcoming
-likely_vote <- c(1:10)
-# Which party are you gonna vote?
-will_vote <- c("Liberal", "Conservative", "NDP", "Green", "Don't know")
-# What’s the most important problem facing Canada today?
-problem <- c("Economy generally", "Unemployment", "Healthcare", "Crime", "Immigration", "Environmental Issue", "Other")
-# ---
-# Choices for section 'Policy'
-# What issue do you focus more on?
-focus_issue <- c("Economy", "Employment", "Public Health", "Prime and Justice", "Immigration Policy", "Tax Policy", "")
-# Do you agree with one or more of the following? Select all that apply.
-agree_statements <- c("There should be policies to resolve the gap between the rich and the poor.", "Environment safety is more important than business tax revenue.", "There should be rules to include all religions in all political parties.", "The government should assist corporations in increasing employment.", "The government should pay more on public health programs.", "There should be more free trade with other countries, even if it hurts some industries in Canada.")
-# Simuating data using the sample function
-# setting sample size
-n <- 500
-# Simulating n samples answers to section 'Personal Background'
-background <- tibble(basis = sample(x = basis, size=n, replace=TRUE), 
-             citizenship = sample(x=citizenship, size=n, replace=TRUE, prob = c(0.8, 0.1, 0.1)),
-             decade_born = sample(x=decade, size=n, replace=TRUE),
-             education_level = sample(x=education, size=n, replace=TRUE),
-             gender = sample(x=gender, size=n, replace=TRUE, prob = c(0.4915, 0.4915, 0.017))# based on the referenced, that there exists 1.7% population identified them 'Non-binary' in Canada [NonBin].
-             , employment_status = sample(x=employment, size=n, replace=TRUE))
-# [Education] Reference https://www12.statcan.gc.ca/census-recensement/2016/dp-pd/hlt-fst/edu-sco/Table.cfm?Lang=E&T=11&Geo=00&SP=1&view=2&age=2&sex=1
-# [NonBin] https://www.statcan.gc.ca/eng/dai/smr08/2015/smr08_203_2015
-# Simulating n samples answering section 'Political Leanings'
-political_leaning <- tibble(last_vote = sample(x=last_vote, size=n, replace=TRUE, prob=c(0.1965, 0.4136, 0.3429, 0.0047, 0)),
-                            likely_vote = sample(x=likely_vote, size=n, replace=TRUE),
-                            problem_focused = sample(x=problem, size=n, replace=TRUE, prob = c(0.1,0.05,0.05,0.3,0.1,0.125,0.125)),
-                            right_direction = sample(x=right_dir, size=n, replace=TRUE, prob = c(0.3, 0.6, 0.1)),
-                            will_vote = sample(x=party, size=n, replace=TRUE, prob = c(0.5, 0.3, 0.15, 0.025, 0.025)),
-                            )
-# Combining sections' Answers
-election_data <- bind_cols(background, political_leaning)
-election_data <- election_data %>% subset(citizenship=="Canadian Citizen")
-```
+Petit Poll’s October polling update aims to help the Ontario Liberal Party to figure out what problems Ontario residents care about the most. We developed a *Google Form* survey and simulated responses, based on the real-word circumstances -- we simulated the data based on facts about Ontario, say, the percentage of votes each party gained during the 43^rd^ federal election in Ontario. We discovered that the existence of **crime** is the most concerning problem in Ontario. Our simulation plays a crucial role since the results can be a reference for the Liberal Party to know what promises to give during the election will favor people in Ontario the most. A weakness of the design is that our report is not based on the real respondent but only an assumption, so the actual result may vary from our results. In this case, the liberal party can take this survey as a template to release a survey on social media to gain true respondents.
 
-```{r "Data Tuning based on Facts"}
-# Research & References required
+# Introducion
 
-```
+The 43^rd^ Ontario General Election will be held on or before June 2, 2022. From 2003-2014, the Liberal Party was elected as premier in Ontario for more than 10 years (TVO, 2018). During the 2018 Ontario election, the Ontario Progressive Conservative Party, led by Doug Ford, won the majority government with 76 out of 124 seats, while the Ontario Liberal Party, led by Kathleen Wynne, recording the worst results in the party’s 161-year history, which dropped from 55 seats to only 7 seats (Dentons, 2018). After the leader of the Ontario Liberal Party has changed, the Liberal Party needs to gain more seats in the next coming election. One way for doing this is to find out what kind of problem in Ontario do people care about so that the Liberal Party would know what campaign promises to pursue if elected.
 
+We developed a survey on Google Form and simulated it in relation to the real-word circumstances to find out what kind of problem worried people in Ontario the most. We use the simple random sampling method, which means everyone in Ontario has an equal chance of being selected. We used pie charts to find out which problem is the most challenging for people in Ontario. Figure 4 shows “Crime” has the highest count among seven different categories. About 155 people among 500 samples think Crime is the problem that the government should put more attention on.
+
+Use this report as a reference, the Liberal party can decide on which topic should their campaign promise focus on to attract the voters in Ontario. This report is a guideline to see which area needs to be improved for the Ontario government. The government who can take action on the improvement may bring people in Ontario a better life. One limitation of this report is that all the results are from simulation but not a real word reflection, although we simulated under the real-world circumstances, it may be different from the real respondents. One suggestion for the party would be to take this survey as a template and release an official survey online to gather reflection from people.
+
+
+# Survey Methodologies
+
+In the survey, the population we wish to generalize the findings from is everyone in Ontario. The sampling frame for the Liberal Party maybe everyone on their phone number list or everyone who leaves their email address to the Liberal Party. Lastly, the sample would be people who take this survey. The sampling method we use for our survey is a simple random sample. In a simple random sample, every member of the population has an equal chance of being selected, which will eliminate the bias.
+
+In considering how to reach the desired respondent, the simplest way is to poll online survey on social media or advertise the survey on the provincial newsletters. The Liberal Party can also send a dedicated email to their subscribers and people who left their email in the political party. Evidence suggests that sending a dedicated email asking people to complete a survey is usually the best way to get a response. Before the election date, the political party can also record a short video and request participation in the survey. The ways to reach the respondents, in this case, are easy and straight forward, and the cost will be about $30,000 (SurveyMonkey, 2020).
+
+Non-response bias always happened in a survey. It occurs when some respondents included in the sample do not respond. It decreases the sample size, which leads to an increase of statistical variance. Moreover, some sensitive problems that people refuse to answer will impact our critical results (SurveyMonkey, 2020). We'll take the following steps to reduce non-response bias in our survey:
+
+1. All the questions are needed to be filled out. If respondents have some ignored questions, the questionnaire cannot be submitted. It helps eliminate non-response bias resulted from carelessness.
+
+2. The questions of the survey are short and simple. We only select the basic background information and the topic we are concerned about the most.
+
+3. We will take some pre-tests in the selected questionnaire platform to ensure our survey runs smoothly for our respondents so that they are more likely to accept our survey request.
+
+4. We will extend our survey collection period to two weeks or more to provide our potential respondents more flexibility to fill out the survey. And we'll send some reminders during the collection time to reduce non-response bias as many as possible.
+
+Finally, we take the following measure to protect respondent privacy:
+
+1. We include an option called "prefer not to say" in the sensitive questions of
+personal background.
+
+2. We promise that personal information cannot be provided to other
+organizations or for other purposes.
+
+3. The information collected from respondents cannot be altered by the
+researcher.
+
+# Results
+
+Among the 500 questionnaires we sampled, the number of people who voted for the Conservative Party in the last election accounted for 44%, which is the highest amongst the parties. It was followed by the NDP Party with 33% of the vote. The Liberal and the Green Party received 23% and nearly 0% support respectively (Figure 1). However, in the forecast for a new vote, the number of people willing to vote for the Liberal Party soared to 47% (Figure 3). It also shows that more than half of the respondents are dissatisfied with the performance of the Conservative Party in Ontario. Statistics confirmed this feedback, 55% of the people expressed that the current government is not going in the right direction to benefit people in the province (Figure 2).
 
 ```{r makeGraph1, echo = FALSE, fig.cap = "Distribution of which parties the samples voted in the previous election", fig.width= 6, fig.height=4}
 # We use ggplot to generate the following figures
@@ -142,13 +79,12 @@ last_vote_figure <- ggplot(last_vote_frame, aes(x="last_vote", y=count, fill=las
   geom_bar(width = 2, stat = "identity") + 
   coord_polar("y", start=0) + 
   geom_text(aes(label = paste0(round(count/total*100), "%")), 
-            color="black",position = position_stack(vjust = 0.5))
+            color="black",position = position_stack(vjust = 0.5)) + guides(fill=guide_legend(title="Party Voted in the Previous Election"))
 last_vote_figure
 ```
 
-```{r makeGraph2, echo = FALSE, fig.cap = "Distribution to question if the existing gov is bringing benefits to country?", fig.width= 6, fig.height=4}
+```{r makeGraph2, echo = FALSE, fig.cap = "Distribution to question if the existing government is bringing benefits to the country?", fig.width= 6, fig.height=4}
 # Answer distribution to question "Do you think the existing gov' is bringing benefits to country? "
-
 right_direction_frame <- election_data %>% group_by(right_direction) %>% summarise(count = n())
 total = sum(right_direction_frame$count)
 right_direction_figure <- ggplot(right_direction_frame, aes(x="last_vote", y=count, fill=right_direction)) +
@@ -156,7 +92,7 @@ right_direction_figure <- ggplot(right_direction_frame, aes(x="last_vote", y=cou
   geom_bar(width = 2, stat = "identity") + 
   coord_polar("y", start=0) + 
   geom_text(aes(label = paste0(round(count/total*100), "%")), 
-            color="black",position = position_stack(vjust = 0.5))
+            color="black",position = position_stack(vjust = 0.5)) + guides(fill=guide_legend(title="Bringing Benefits"))
 right_direction_figure
 ```
 
@@ -169,18 +105,14 @@ next_vote <- ggplot(next_vote_frame, aes(x="will_vote", y=count, fill=will_vote 
   geom_bar(width = 2, stat = "identity") + 
   coord_polar("y", start=0) + 
   geom_text(aes(label = paste0(round(count/total*100), "%")), 
-            color="black",position = position_stack(vjust = 0.5))
+            color="black",position = position_stack(vjust = 0.5)) + guides(fill=guide_legend(title="Party to Vote for"))
 next_vote
 # Distribution of which parties to vote for in the next election; colors indicates whether the voter agrees that 
 ```
 
-Among the 500 questionnaires we sampled, the number of people who voted for the Conservative Party in the last poll accounted for a maximum of 44%. It was followed by the NDP Party with 33% of the vote. The Liberal and the Green Party received 23% and nearly 0% support respectively (Figure 1). However, in the forecast for a new vote, the number of people willing to vote for the Liberal Party soared to 47% (Figure 3). It also shows that the masses are dissatisfied with the performance of the Conservative Party in Ontario. Statistics confirmed this feedback. 55% of the people expressed dissatisfaction with the current government (Figure 2).
+The Liberal Party needs to strengthen the policy where it did not do well in the previous government. According to our survey, Crime has become the most concerning issue for people in Ontario, accounting for 31% in all different sources of problems (Figure 4). There were 490 shootings in Toronto last year and the city also set a record for shooting-related injuries, at 248 (JANUARY 1, 2020). The data also proves that crime incidents have been on the rise in recent years and the problem needs to be solved urgently (Figure 6). Other problems that people focused on should also be taken into consideration. For example, the environmental issue is also high compare to other issues, 16% of the respondents think it is a serious problem in Ontario (Figure 4).
 
-\clearpage
-
-The Liberal Party needs to strengthen where it did not do well in the previous government. According to our questionnaire survey, crime has become the most concerned issue (Figure 4), accounting for 31%. There were 490 shootings in Toronto last year and the city also set a record for shooting-related injuries, at 248 (JANUARY 1, 2020). The data also proves that crime incidents have been on the rise in recent years and the problem needs to be solved urgently (Figure 6).
-  
-  From the perspective of the answering population, our student population is too large (Figure 5), which may be due to the fact that the questionnaire adopts the form of an online questionnaire, which leads to bias.
+Among all the people in different employment statuses, the group *student* is mostly concerned regarding unemployment status among the population (Figure 5), which may be due to the fact that the questionnaire adopts the form of an online survey, which leads to some biases. Another reason may be students are just having the right to vote, so they are more passionate in answering the questions about the election. They have their own opinion about the policy and government, which may be different from the elders. It is important in this case to take their opinion seriously. Similarly, students, like other people, think Crime is the most serious problem in Ontario (Figure 5). They also think other problems that we haven’t included in the questionnaire are also important (Figure 5). We may develop a writing space for people who have opinions other than the selections next time.
 
 ```{r makeGraph4, echo = FALSE, fig.cap = "Distribution of questions people focused on", fig.width= 6, fig.height=4}
 problem_focused_frame <- election_data %>% group_by(problem_focused) %>% summarise(count = n())
@@ -189,9 +121,8 @@ problem_focused <- ggplot(problem_focused_frame, aes(x="problem_focused",y=count
   theme_void() +
   coord_polar("y") +
   geom_text(aes(label = paste0(round(count/total*100), "%")), 
-            color="black",position = position_stack(vjust = 0.5))
+            color="black",position = position_stack(vjust = 0.5)) + guides(fill=guide_legend(title="Problem Concerned"))
 problem_focused
-
 ```
 
 ```{r makeGraph5, echo = FALSE, fig.cap = "Distribution of employment count", fig.width= 8, fig.height=4}
@@ -199,17 +130,25 @@ employment_count <- c()
 for (i in 1:9){
   employment_count[i] <- ncol(election_data %>% filter(employment_status == employment[i]))
 }
-# employment_pie <- ggplot(election_data, aes(x="", y=employment_count, fill=employment_status)) + geom_bar(width=1, stat = "identity") + 
-#   coord_polar("y", start=0)
-# 
-# employment_pie
-employment_dist_dir_fill <- ggplot(election_data, aes(x=employment_status, fill = problem_focused)) + geom_bar() + coord_flip()
+employment_dist_dir_fill <- ggplot(election_data, aes(y=employment_status, fill = problem_focused)) + geom_bar() + guides(fill=guide_legend(title="Problem Concerned"))
 employment_dist_dir_fill
 ```
 
 ![Number of shootings in Toronto](./screenshot/crime.png)
 
 \clearpage
+
+
+# Limitaions and Weaknesses
+
+There exists various limitations in the survey.
+
+Although the data is simulated based on real-world circumstances (e.g. we tuned the probability for each political party being voted based on results from the 2019 Federal Election in Ontario, a major problem is that the samples might be dissimilar to the real-world respondents, such that it leads to false results.
+
+A potential solution is to take this survey as a template and release an official survey online to gather reflection from people.
+
+In addition, the simulated data is lack of multivariate responses. For instance, in the questionnaire we created, respondents are allowed to select up to a specific number of responses (e.g. Question 5 in Figure 11, see Appendix), but in contrast, the simulated data does not include any sample having multiple responses to one specific question. The issue exists because of insufficient methodology to analyze multivariate categorical data, due to our limited knowledge.
+
 
 # Reference
 
@@ -245,16 +184,19 @@ https://www.theglobeandmail.com/canada/toronto/article-toronto-sees-record-numbe
 
 # Appendix
 
-The Survey link down below: 
-  https://docs.google.com/forms/d/e/1FAIpQLScHpDE2n-2QJevoEdasLFhEeWXmGuGLT8Zq7o2QyoQNS1DzcQ/formResponse
+1.  Link to the survey down below
 
-The code that generates the simulated data can be found here:
-  https://github.com/Xeon0312/sta304-ps2/blob/master/simulation-script.R
+https://docs.google.com/forms/d/e/1FAIpQLScHpDE2n-2QJevoEdasLFhEeWXmGuGLT8Zq7o2QyoQNS1DzcQ/formResponse
+
+2. Code that generates the simulated data can be found here:
+
+https://github.com/Xeon0312/sta304-ps2/blob/master/simulation-script.R
   
-The R markdown file that generated this report is here:
-  https://github.com/Xeon0312/sta304-ps2/blob/master/304-simulating.Rmd
+3. The R markdown file that generated this report is here:
+
+https://github.com/Xeon0312/sta304-ps2/blob/master/304-simulating.Rmd
   
-github repo: https://github.com/Xeon0312/sta304-ps2
+4. github repo: https://github.com/Xeon0312/sta304-ps2
   
 
 ![From](./screenshot/quiz.png)

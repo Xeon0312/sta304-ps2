@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.10.8)  9 OCT 2020 09:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.10.8)  9 OCT 2020 12:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -306,36 +306,33 @@ Package: grffile 2019/11/11 v2.1 Extended file name support for graphics (legac
 y)
 Package grffile Info: This package is an empty stub for compatibility on input 
 line 40.
-) (/Users/xeon/Library/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count274
 )
 (/Users/xeon/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pdftex.de
 f
 File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
-\l__kernel_color_stack_int=\count275
+\l__kernel_color_stack_int=\count274
 \l__pdf_internal_box=\box49
 ) (./304-simulating.aux)
 \openout1 = `304-simulating.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
 
 (/Users/xeon/Library/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.st
 y
@@ -346,7 +343,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 75.
+Package hyperref Info: Link coloring OFF on input line 68.
 (/Users/xeon/Library/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 (/Users/xeon/Library/TinyTeX/texmf-dist/tex/latex/refcount/refcount.sty
@@ -356,11 +353,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ng.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count276
+\c@section@level=\count275
 )
-LaTeX Info: Redefining \ref on input line 75.
-LaTeX Info: Redefining \pageref on input line 75.
-LaTeX Info: Redefining \nameref on input line 75.
+LaTeX Info: Redefining \ref on input line 68.
+LaTeX Info: Redefining \pageref on input line 68.
+LaTeX Info: Redefining \nameref on input line 68.
 (./304-simulating.out) (./304-simulating.out)
 \@outlinefile=\write3
 \openout3 = `304-simulating.out'.
@@ -400,108 +397,106 @@ LaTeX Info: Redefining \nameref on input line 75.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 7
-7.
+0.
 (/Users/xeon/Library/TinyTeX/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 7
-7.
+0.
 (/Users/xeon/Library/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-77.
+70.
 (/Users/xeon/Library/TinyTeX/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-77.
+70.
 (/Users/xeon/Library/TinyTeX/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 77.
+(Font)              <12> on input line 70.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 77.
+(Font)              <8> on input line 70.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 77.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 77.
+(Font)              <6> on input line 70.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 70.
 
 (/Users/xeon/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 77.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 70.
 
 (/Users/xeon/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 79.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 79.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 79.
+[1
 
 {/Users/xeon/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<304-simulating_files/figure-latex/makeGraph1-1.pdf, id=44, 433.62pt x 289.08pt
+<304-simulating_files/figure-latex/makeGraph1-1.pdf, id=48, 433.62pt x 289.08pt
 >
 File: 304-simulating_files/figure-latex/makeGraph1-1.pdf Graphic file (type pdf
 )
 <use 304-simulating_files/figure-latex/makeGraph1-1.pdf>
 Package pdftex.def Info: 304-simulating_files/figure-latex/makeGraph1-1.pdf  us
-ed on input line 204.
+ed on input line 207.
 (pdftex.def)             Requested size: 433.63878pt x 289.09251pt.
-<304-simulating_files/figure-latex/makeGraph2-1.pdf, id=45, 433.62pt x 289.08pt
+<304-simulating_files/figure-latex/makeGraph2-1.pdf, id=49, 433.62pt x 289.08pt
 >
 File: 304-simulating_files/figure-latex/makeGraph2-1.pdf Graphic file (type pdf
 )
 <use 304-simulating_files/figure-latex/makeGraph2-1.pdf>
 Package pdftex.def Info: 304-simulating_files/figure-latex/makeGraph2-1.pdf  us
-ed on input line 211.
+ed on input line 214.
 (pdftex.def)             Requested size: 433.63878pt x 289.09251pt.
-<304-simulating_files/figure-latex/makeGraph3-1.pdf, id=46, 433.62pt x 289.08pt
+<304-simulating_files/figure-latex/makeGraph3-1.pdf, id=50, 433.62pt x 289.08pt
 >
 File: 304-simulating_files/figure-latex/makeGraph3-1.pdf Graphic file (type pdf
 )
 <use 304-simulating_files/figure-latex/makeGraph3-1.pdf>
 Package pdftex.def Info: 304-simulating_files/figure-latex/makeGraph3-1.pdf  us
-ed on input line 218.
+ed on input line 221.
 (pdftex.def)             Requested size: 433.63878pt x 289.09251pt.
 [2] [3 <./304-simulating_files/figure-latex/makeGraph1-1.pdf> <./304-simulating
-_files/figure-latex/makeGraph2-1.pdf>] [4 <./304-simulating_files/figure-latex/
-makeGraph3-1.pdf>]
-<304-simulating_files/figure-latex/makeGraph4-1.pdf, id=86, 433.62pt x 289.08pt
+_files/figure-latex/makeGraph2-1.pdf>]
+<304-simulating_files/figure-latex/makeGraph4-1.pdf, id=79, 433.62pt x 289.08pt
 >
 File: 304-simulating_files/figure-latex/makeGraph4-1.pdf Graphic file (type pdf
 )
 <use 304-simulating_files/figure-latex/makeGraph4-1.pdf>
 Package pdftex.def Info: 304-simulating_files/figure-latex/makeGraph4-1.pdf  us
-ed on input line 250.
+ed on input line 253.
 (pdftex.def)             Requested size: 433.63878pt x 289.09251pt.
-<304-simulating_files/figure-latex/makeGraph5-1.pdf, id=87, 578.16pt x 289.08pt
+<304-simulating_files/figure-latex/makeGraph5-1.pdf, id=80, 578.16pt x 289.08pt
 >
 File: 304-simulating_files/figure-latex/makeGraph5-1.pdf Graphic file (type pdf
 )
 <use 304-simulating_files/figure-latex/makeGraph5-1.pdf>
 Package pdftex.def Info: 304-simulating_files/figure-latex/makeGraph5-1.pdf  us
-ed on input line 256.
+ed on input line 259.
 (pdftex.def)             Requested size: 469.75385pt x 234.8769pt.
-<./screenshot/crime.png, id=88, 674.52pt x 504.88625pt>
+<./screenshot/crime.png, id=81, 674.52pt x 504.88625pt>
 File: ./screenshot/crime.png Graphic file (type png)
 <use ./screenshot/crime.png>
-Package pdftex.def Info: ./screenshot/crime.png  used on input line 262.
+Package pdftex.def Info: ./screenshot/crime.png  used on input line 265.
 (pdftex.def)             Requested size: 469.76266pt x 351.62292pt.
-[5
-
- <./304-simulating_files/figure-latex/makeGraph4-1.pdf>] [6 <./304-simulating_f
-iles/figure-latex/makeGraph5-1.pdf> <./screenshot/crime.png>]
+[4 <./304-simulating_files/figure-latex/makeGraph3-1.pdf>] [5 <./304-simulating
+_files/figure-latex/makeGraph4-1.pdf> <./304-simulating_files/figure-latex/make
+Graph5-1.pdf>] [6 <./screenshot/crime.png>]
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 2
-73.
+98.
 (/Users/xeon/Library/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 278.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 278.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 278.
-
-Underfull \hbox (badness 10000) in paragraph at lines 321--324
+Underfull \hbox (badness 10000) in paragraph at lines 346--349
 []$\T1/lmr/m/n/10 https : / / www . theglobeandmail . com / canada / toronto / 
 article -[] toronto -[] sees -[] record -[] number -[] of -[] shootings -[]
  []
@@ -509,44 +504,43 @@ article -[] toronto -[] sees -[] record -[] number -[] of -[] shootings -[]
 [7
 
 ]
-Overfull \hbox (157.4118pt too wide) in paragraph at lines 331--333
-\T1/lmr/m/n/10 The Sur-vey link down be-low: []$https : / / docs . google . com
- / forms / d / e / 1FAIpQLScHpDE2n -[] 2QJevoEdasLFhEeWXmGuGLT8Zq7o2QyoQNS1DzcQ
- /
+Overfull \hbox (30.44pt too wide) in paragraph at lines 363--364
+[][]$\T1/lmr/m/n/10 https : / / docs . google . com / forms / d / e / 1FAIpQLSc
+HpDE2n -[] 2QJevoEdasLFhEeWXmGuGLT8Zq7o2QyoQNS1DzcQ /
  []
 
-<./screenshot/quiz.png, id=143, 639.38875pt x 252.945pt>
+<./screenshot/quiz.png, id=147, 639.38875pt x 252.945pt>
 File: ./screenshot/quiz.png Graphic file (type png)
 <use ./screenshot/quiz.png>
-Package pdftex.def Info: ./screenshot/quiz.png  used on input line 344.
+Package pdftex.def Info: ./screenshot/quiz.png  used on input line 395.
 (pdftex.def)             Requested size: 469.75484pt x 185.83708pt.
-<./screenshot/123.png, id=144, 631.35875pt x 816.04875pt>
+<./screenshot/123.png, id=148, 631.35875pt x 816.04875pt>
 File: ./screenshot/123.png Graphic file (type png)
 <use ./screenshot/123.png>
-Package pdftex.def Info: ./screenshot/123.png  used on input line 350.
+Package pdftex.def Info: ./screenshot/123.png  used on input line 401.
 (pdftex.def)             Requested size: 469.76074pt x 607.17883pt.
-<./screenshot/456.png, id=145, 627.34375pt x 1046.91125pt>
+<./screenshot/456.png, id=149, 627.34375pt x 1046.91125pt>
 File: ./screenshot/456.png Graphic file (type png)
 <use ./screenshot/456.png>
-Package pdftex.def Info: ./screenshot/456.png  used on input line 356.
+Package pdftex.def Info: ./screenshot/456.png  used on input line 407.
 (pdftex.def)             Requested size: 389.76276pt x 650.43611pt.
 
-LaTeX Warning: Float too large for page by 23.95053pt on input line 358.
+LaTeX Warning: Float too large for page by 23.95053pt on input line 409.
 
-<./screenshot/223.png, id=146, 638.385pt x 837.1275pt>
+<./screenshot/223.png, id=150, 638.385pt x 837.1275pt>
 File: ./screenshot/223.png Graphic file (type png)
 <use ./screenshot/223.png>
-Package pdftex.def Info: ./screenshot/223.png  used on input line 362.
+Package pdftex.def Info: ./screenshot/223.png  used on input line 413.
 (pdftex.def)             Requested size: 469.75769pt x 616.00304pt.
-<./screenshot/45.png, id=147, 638.385pt x 611.28375pt>
+<./screenshot/45.png, id=151, 638.385pt x 611.28375pt>
 File: ./screenshot/45.png Graphic file (type png)
 <use ./screenshot/45.png>
-Package pdftex.def Info: ./screenshot/45.png  used on input line 368.
+Package pdftex.def Info: ./screenshot/45.png  used on input line 419.
 (pdftex.def)             Requested size: 469.75769pt x 449.81516pt.
-<./screenshot/12.png, id=148, 634.37pt x 771.88374pt>
+<./screenshot/12.png, id=152, 634.37pt x 771.88374pt>
 File: ./screenshot/12.png Graphic file (type png)
 <use ./screenshot/12.png>
-Package pdftex.def Info: ./screenshot/12.png  used on input line 374.
+Package pdftex.def Info: ./screenshot/12.png  used on input line 425.
 (pdftex.def)             Requested size: 469.76523pt x 571.59726pt.
 [8
 
@@ -554,26 +548,30 @@ Package pdftex.def Info: ./screenshot/12.png  used on input line 374.
 ] [11 <./screenshot/223.png>] [12 <./screenshot/45.png>] [13 <./screenshot/12.p
 ng>] (./304-simulating.aux)
 Package rerunfilecheck Info: File `304-simulating.out' has not changed.
-(rerunfilecheck)             Checksum: 0E26C098F79E5FFA458C56351BC081E2;744.
+(rerunfilecheck)             Checksum: 2B2DD940B5E0D97442F722EAE0E95D93;805.
  ) 
 Here is how much of TeX's memory you used:
- 10807 strings out of 481864
- 154848 string characters out of 5930161
- 443388 words of memory out of 5000000
- 26896 multiletter control sequences out of 15000+600000
- 577743 words of font info for 67 fonts, out of 8000000 for 9000
+ 10509 strings out of 481864
+ 151363 string characters out of 5930161
+ 439410 words of memory out of 5000000
+ 26594 multiletter control sequences out of 15000+600000
+ 587987 words of font info for 70 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  60i,6n,66p,248b,333s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/Users/xeon/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/Users
 /xeon/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</Users/xeon/Libr
-ary/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></Users/xeon/Library/Ti
-nyTeX/texmf-dist/fonts/type1/public/lm/lmr10.pfb></Users/xeon/Library/TinyTeX/t
-exmf-dist/fonts/type1/public/lm/lmr12.pfb></Users/xeon/Library/TinyTeX/texmf-di
-st/fonts/type1/public/lm/lmr17.pfb>
-Output written on 304-simulating.pdf (13 pages, 699811 bytes).
+ary/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></Users/xeon/Library/Ti
+nyTeX/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></Users/xeon/Library/TinyTeX/
+texmf-dist/fonts/type1/public/lm/lmr10.pfb></Users/xeon/Library/TinyTeX/texmf-d
+ist/fonts/type1/public/lm/lmr12.pfb></Users/xeon/Library/TinyTeX/texmf-dist/fon
+ts/type1/public/lm/lmr17.pfb></Users/xeon/Library/TinyTeX/texmf-dist/fonts/type
+1/public/lm/lmr7.pfb></Users/xeon/Library/TinyTeX/texmf-dist/fonts/type1/public
+/lm/lmr8.pfb></Users/xeon/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri
+10.pfb>
+Output written on 304-simulating.pdf (13 pages, 773187 bytes).
 PDF statistics:
- 221 PDF objects out of 1000 (max. 8388607)
- 176 compressed objects within 2 object streams
- 47 named destinations out of 1000 (max. 500000)
+ 240 PDF objects out of 1000 (max. 8388607)
+ 191 compressed objects within 2 object streams
+ 51 named destinations out of 1000 (max. 500000)
  117 words of extra memory for PDF output out of 10000 (max. 10000000)
 
