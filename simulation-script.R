@@ -42,10 +42,10 @@ employment <- c("Working for pay full-time", "Working for pay part-time", "Self-
 
 # For citizens
 # Section Political Leanings, citizen
-party <- c("Liberal", "NDP", "Conserv", "Green", "Other")
+party <- c("Liberal", "Conservative", "NDP", "Green", "Other")
 
 # Which party did you vote in last election?
-last_vote <- c("Liberal", "NDP", "Conserv", "Green", "Other")
+last_vote <- c("Liberal", "Conservative", "NDP", "Green", "Other")
 
 # Do you think the existing government is going in the right direction to benefit the people of the country?
 right_dir <- c("Yes", "No", "Maybe")
@@ -54,7 +54,7 @@ right_dir <- c("Yes", "No", "Maybe")
 likely_vote <- c(1:10)
 
 # Which party are you gonna vote?
-will_vote <- c("Liberal", "NDP", "Conserv", "Green", "Don't know")
+will_vote <- c("Liberal", "Conservative", "NDP", "Green", "Don't know")
 
 # What’s the most important problem facing Canada today?
 problem <- c("Economy generally", "Unemployment", "Healthcare", "Crime", "Immigration", "Environmental Issue", "Other")
@@ -80,12 +80,11 @@ background <- tibble(basis = sample(x = basis, size=n, replace=TRUE),
                      , employment_status <- sample(x=employment, size=n, replace=TRUE))
 
 # Simulating n samples answering section 'Politial Leanings'
-political_leaning <- tibble(last_vote = sample(x=last_vote, size=n, replace=TRUE, prob=c(0.24, 0.24, 0.24, 0.24, 0.04)),
+political_leaning <- tibble(last_vote = sample(x=last_vote, size=n, replace=TRUE, prob=c(0.1965, 0.4136, 0.3429, 0.0047, 0)),
                             likely_vote = sample(x=likely_vote, size=n, replace=TRUE),
-                            # party_vote = sample(x=party, size=n, replace=TRUE),
-                            problem_answer = sample(x=problem, size=n, replace=TRUE),
-                            direction = sample(x=right_dir, size=n, replace=TRUE),
-                            will_vote = sample(x=party, size=n, replace=TRUE),
+                            problem_focused = sample(x=problem, size=n, replace=TRUE, prob = c(0.1,0.05,0.05,0.3,0.1,0.125,0.125)),
+                            right_direction = sample(x=right_dir, size=n, replace=TRUE, prob = c(0.3, 0.6, 0.1)),
+                            will_vote = sample(x=party, size=n, replace=TRUE, prob = c(0.5, 0.3, 0.15, 0.025, 0.025)),
 )
 
 # Combining Two Sections' Answers
