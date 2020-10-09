@@ -1,23 +1,15 @@
----
-title: "Simulation"
-subtitle: "STA304 - Fall 2020"
-author: "Ziyue Yang"
-# Student Number: 1004804759
-date: "03/10/2020"
-output: pdf_document
----
+# ----------------------------------------------------
+# Data simulation for Problem Set 2                   |
+# STA304 - Fall 2020                                  |
+# Authors: Boyu Cao, Jiayi Yu, Yijia Liu, Ziyue Yang  |
+# ----------------------------------------------------
 
-```{r setup, include=FALSE}
-# Setting seed as the last 4 digits of my student number
+# Setting seed as the last 4 digits of Ziyue Yang's student number, for reproducibility
 set.seed(4759)
 library(tidyverse)
 
 # Global settings for figure sizes and echo.
-knitr::opts_chunk$set(fig.height=3, fig.width=10, echo = FALSE)
-```
 
-
-```{r "Data Simulation", include=FALSE}
 # We begin with storing choices in vectors
 # which will be used for sampling in the next chunk
 
@@ -47,11 +39,8 @@ employment <- c("Working for pay full-time", "Working for pay part-time", "Self-
 # If you could vote in this election, which party do you think you will vote for?
 # We use the vector 'party' below
 
-# party_noncitizen <- c("Liberal", "NDP", "Conserv", "Green", "Other")
-# ADD NONCITIZEN?
 
-
-# ---
+# ----------------------------------------------------
 
 
 # Section Political Leanings, citizen
@@ -73,7 +62,7 @@ will_vote <- c("Liberal", "NDP", "Conserv", "Green", "Don't know")
 problem <- c("Economy generally", "Unemployment", "Healthcare", "Crime", "Immigration", "Environmental Issue", "Other")
 
 
-# ---
+# ----------------------------------------------------
 
 
 # Choices for section 'Policy'
@@ -85,7 +74,7 @@ focus_issue <- c("Economy", "Employment", "Public Health", "Prime and Justice", 
 agree_statements <- c("There should be policies to resolve the gap between the rich and the poor.", "Environment safety is more important than business tax revenue.", "There should be rules to include all religions in all political parties.", "The government should assist corporations in increasing employment.", "The government should pay more on public health programs.", "There should be more free trade with other countries, even if it hurts some industries in Canada.")
 
 
-# Simuating data using the sample function
+# In the following, we simulate responses for each section, and store them in tibbles.
 
 
 # setting sample size
@@ -94,11 +83,12 @@ n <- 500
 # Simulating n samples answers to section 'Personal Background'
 
 background <- tibble(basis = sample(x = basis, size=n, replace=TRUE), 
-             citizenship = sample(x=citizenship, size=n, replace=TRUE, prob = c(0.8, 0.1, 0.1)),
-             decade_born = sample(x=decade, size=n, replace=TRUE),
-             education_level = sample(x=education, size=n, replace=TRUE, prob = c()), # [Education]
-             gender = sample(x=gender, size=n, replace=TRUE, prob = c(0.4915, 0.4915, 0.017))# based on the referenced, that there exists 1.7% population identified them 'Non-binary' in Canada [NonBin].
-             , employment_status = sample(x=employment, size=n, replace=TRUE))
+                     citizenship = sample(x=citizenship, size=n, replace=TRUE, prob = c(0.8, 0.1, 0.1)), 
+                     # We want to put focus on citizens, hence the probabilities of noncitizen are lower.
+                     decade_born = sample(x=decade, size=n, replace=TRUE),
+                     education_level = sample(x=education, size=n, replace=TRUE, prob = c()), # [Education]
+                     gender = sample(x=gender, size=n, replace=TRUE, prob = c(0.4915, 0.4915, 0.017))# based on the referenced, that there exists 1.7% population identified them 'Non-binary' in Canada [NonBin].
+                     , employment_status = sample(x=employment, size=n, replace=TRUE))
 
 # [Education] Reference https://www12.statcan.gc.ca/census-recensement/2016/dp-pd/hlt-fst/edu-sco/Table.cfm?Lang=E&T=11&Geo=00&SP=1&view=2&age=2&sex=1
 
@@ -112,48 +102,30 @@ political_leaning <- tibble(last_vote = sample(x=last_vote, size=n, replace=TRUE
                             right_direction = sample(x=right_dir, size=n, replace=TRUE, prob = c(0.495, 0.495, 0.01)),
                             # Based on the proportion of seats won.
                             will_vote = sample(x=party, size=n, replace=TRUE, prob = c(0.65, 0.30, 0.04, 0.005, 0.005)),
-                            )
+)
 
-# Combining sections' Answers
-election_data <- bind_cols(background, political_leaning)
-```
+# Combining tibbles for all sections
+# Pipe: select samples that belongs to category "Canadian Citizens"
+election_data <- bind_cols(background, political_leaning) %>% filter(citizenship=="Canadian Citizen")
 
-
-```{r plots}
 
 # We use ggplot to generate the following figures
+# Most of the following figures are now shown in report.Rmd
+# They are for our own references when analyzing results
 
 # Plotting the distribution of which parties were voted in the last election
-last_vote_figure <- ggplot(election_data, aes(x=last_vote)) + geom_bar() + labs(title="Distribution of Parties Voted Previously", caption = "Figure 1. Distribution of which parties the samples voted in the previous election.") + xlab("Party Voted")
-last_vote_figure
+last_vote_figure <- ggplot(election_data, aes(x=last_vote)) + geom_bar() + labs(title="Distribution of Parties Voted Previously", caption = "Figure 1. Distribution of which parties the samples voted in the previous election.") + xlab("Party Voted") + guides(fill=guide_legend(title="Problem Concerned"))
 
 # Answer distribution to question "Do you think the existing gov' is bringing benefits to country? "
-benefit <- ggplot(election_data, aes(x=right_direction)) + geom_bar()
-benefit
+benefit_plot <- ggplot(election_data, aes(x=right_direction)) + geom_bar()
 
 # Distribution of which parties to vote for in the next election.
-next_vote <- ggplot(election_data, aes(x=will_vote)) + geom_bar()
-next_vote
+next_vote_plot <- ggplot(election_data, aes(x=will_vote)) + geom_bar()
 
 # Distribution of which parties to vote for in the next election; colors indicates whether the voter agrees that 
 # the current party is bringing benefits to the country.
 next_vote_benefit_fill <- ggplot(election_data, aes(x=will_vote, fill=right_direction)) + geom_bar()
-next_vote_benefit_fill
 
-age_dist_problem_fill <- ggplot(election_data, aes(x=decade_born, fill=problem_focused)) + geom_bar()
-age_dist_problem_fill
+age_dist_problem_fill <- ggplot(election_data, aes(y=decade_born, fill=problem_focused), labs(title="Distribution of Problems Concerned", subtitle="Grouped by Decade Born")) + geom_bar() + ylab("Decade Born") + guides(fill=guide_legend(title="Problem Concerned"))
 
-employment_count <- c()
-
-for (i in 1:9){
-  employment_count[i] <- ncol(election_data %>% filter(employment_status == employment[i]))
-}
-
-# employment_pie <- ggplot(election_data, aes(x="", y=employment_count, fill=employment_status)) + geom_bar(width=1, stat = "identity") + 
-#   coord_polar("y", start=0)
-# 
-# employment_pie
-
-employment_dist_dir_fill <- ggplot(election_data, aes(x=employment_status, fill = problem_focused)) + geom_bar()
-employment_dist_dir_fill
-```
+employment_dist_dir_fill <- ggplot(election_data, aes(y=employment_status, fill = problem_focused)) + geom_bar()
