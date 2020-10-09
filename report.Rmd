@@ -34,7 +34,9 @@ Petit Poll’s October polling update aims to help the Ontario Liberal Party to 
 
 The 43^rd^ Ontario General Election will be held on or before June 2, 2022. From 2003-2014, the Liberal Party was elected as premier in Ontario for more than 10 years (TVO, 2018). During the 2018 Ontario election, the Ontario Progressive Conservative Party, led by Doug Ford, won the majority government with 76 out of 124 seats, while the Ontario Liberal Party, led by Kathleen Wynne, recording the worst results in the party’s 161-year history, which dropped from 55 seats to only 7 seats (Dentons, 2018). After the leader of the Ontario Liberal Party has changed, the Liberal Party needs to gain more seats in the next coming election. One way for doing this is to find out what kind of problem in Ontario do people care about so that the Liberal Party would know what campaign promises to pursue if elected.
 
-We developed a survey on Google Form and simulated it based on the real-word circumstances to find out what kind of problem worried people in Ontario the most. We use the simple random sampling method, which means everyone in Ontario has an equal chance of being selected. We used a bar plot to find out which problem is the most challenging for people in Ontario. The bar plot shows “Crime” has the highest count among seven different categories. About 90 people among 500 samples think Crime is the problem that the government should put more attention on. 
+We developed a survey on Google Form and simulated it in relation to the real-word circumstances to find out what kind of problem worried people in Ontario the most. We use the simple random sampling method, which means everyone in Ontario has an equal chance of being selected. We used pie charts to find out which problem is the most challenging for people in Ontario. Figure 4 shows “Crime” has the highest count among seven different categories. About 155 people among 500 samples think Crime is the problem that the government should put more attention on.
+
+Use this report as a reference, the Liberal party can decide on which topic should their campaign promise focus on to attract the voters in Ontario. This report is a guideline to see which area needs to be improved for the Ontario government. The government who can take action on the improvement may bring people in Ontario a better life. One limitation of this report is that all the results are from simulation but not a real word reflection, although we simulated under the real-world circumstances, it may be different from the real respondents. One suggestion for the party would be to take this survey as a template and release an official survey online to gather reflection from people.
 
 
 # Survey Methodologies
@@ -66,6 +68,7 @@ researcher.
 
 # Results
 
+Among the 500 questionnaires we sampled, the number of people who voted for the Conservative Party in the last election accounted for 44%, which is the highest amongst the parties. It was followed by the NDP Party with 33% of the vote. The Liberal and the Green Party received 23% and nearly 0% support respectively (Figure 1). However, in the forecast for a new vote, the number of people willing to vote for the Liberal Party soared to 47% (Figure 3). It also shows that more than half of the respondents are dissatisfied with the performance of the Conservative Party in Ontario. Statistics confirmed this feedback, 55% of the people expressed that the current government is not going in the right direction to benefit people in the province (Figure 2).
 
 ```{r makeGraph1, echo = FALSE, fig.cap = "Distribution of which parties the samples voted in the previous election", fig.width= 6, fig.height=4}
 # We use ggplot to generate the following figures
@@ -109,8 +112,6 @@ next_vote
 # Distribution of which parties to vote for in the next election; colors indicates whether the voter agrees that 
 ```
 
-Among the 500 questionnaires we sampled, the number of people who voted for the Conservative Party in the last election accounted for 44%, which is the highest amongst the parties. It was followed by the NDP Party with 33% of the vote. The Liberal and the Green Party received 23% and nearly 0% support respectively (Figure 1). However, in the forecast for a new vote, the number of people willing to vote for the Liberal Party soared to 47% (Figure 3). It also shows that more than half of the respondents are dissatisfied with the performance of the Conservative Party in Ontario. Statistics confirmed this feedback, 55% of the people expressed that the current government is not going in the right direction to benefit people in the province (Figure 2).
-
 The Liberal Party needs to strengthen the policy where it did not do well in the previous government. According to our survey, Crime has become the most concerning issue for people in Ontario, accounting for 31% in all different sources of problems (Figure 4). There were 490 shootings in Toronto last year and the city also set a record for shooting-related injuries, at 248 (JANUARY 1, 2020). The data also proves that crime incidents have been on the rise in recent years and the problem needs to be solved urgently (Figure 6). Other problems that people focused on should also be taken into consideration. For example, the environmental issue is also high compare to other issues, 16% of the respondents think it is a serious problem in Ontario (Figure 4).
 
 Among all the people in different employment statuses, the group *student* is mostly concerned regarding unemployment status among the population (Figure 5), which may be due to the fact that the questionnaire adopts the form of an online survey, which leads to some biases. Another reason may be students are just having the right to vote, so they are more passionate in answering the questions about the election. They have their own opinion about the policy and government, which may be different from the elders. It is important in this case to take their opinion seriously. Similarly, students, like other people, think Crime is the most serious problem in Ontario (Figure 5). They also think other problems that we haven’t included in the questionnaire are also important (Figure 5). We may develop a writing space for people who have opinions other than the selections next time.
@@ -139,7 +140,6 @@ employment_dist_dir_fill
 ![Number of shootings in Toronto](./screenshot/crime.png)
 
 \clearpage
-
 
 
 # Limitaions and Weaknesses

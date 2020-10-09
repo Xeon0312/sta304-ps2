@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  8 OCT 2020 20:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  8 OCT 2020 20:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -490,109 +490,111 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 [1
 
 {/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<report_files/figure-latex/makeGraph1-1.pdf, id=23, 408.52625pt x 202.7575pt>
+<report_files/figure-latex/makeGraph1-1.pdf, id=22, 408.52625pt x 202.7575pt>
 File: report_files/figure-latex/makeGraph1-1.pdf Graphic file (type pdf)
 <use report_files/figure-latex/makeGraph1-1.pdf>
 Package pdftex.def Info: report_files/figure-latex/makeGraph1-1.pdf  used on in
-put line 184.
+put line 207.
 (pdftex.def)             Requested size: 408.53772pt x 202.76318pt.
-<report_files/figure-latex/makeGraph2-1.pdf, id=24, 350.30875pt x 232.87pt>
+<report_files/figure-latex/makeGraph2-1.pdf, id=23, 350.30875pt x 232.87pt>
 File: report_files/figure-latex/makeGraph2-1.pdf Graphic file (type pdf)
 <use report_files/figure-latex/makeGraph2-1.pdf>
 Package pdftex.def Info: report_files/figure-latex/makeGraph2-1.pdf  used on in
-put line 191.
+put line 214.
 (pdftex.def)             Requested size: 350.31857pt x 232.87651pt.
-<report_files/figure-latex/makeGraph3-1.pdf, id=25, 345.29pt x 232.87pt>
+<report_files/figure-latex/makeGraph3-1.pdf, id=24, 345.29pt x 232.87pt>
 File: report_files/figure-latex/makeGraph3-1.pdf Graphic file (type pdf)
 <use report_files/figure-latex/makeGraph3-1.pdf>
 Package pdftex.def Info: report_files/figure-latex/makeGraph3-1.pdf  used on in
-put line 198.
+put line 221.
 (pdftex.def)             Requested size: 345.2944pt x 232.87296pt.
-[2 <./report_files/figure-latex/makeGraph1-1.pdf>] [3 <./report_files/figure-la
-tex/makeGraph2-1.pdf> <./report_files/figure-latex/makeGraph3-1.pdf>]
-<report_files/figure-latex/makeGraph4-1.pdf, id=67, 371.3875pt x 232.87pt>
+[2] [3 <./report_files/figure-latex/makeGraph1-1.pdf> <./report_files/figure-la
+tex/makeGraph2-1.pdf>] [4 <./report_files/figure-latex/makeGraph3-1.pdf>]
+<report_files/figure-latex/makeGraph4-1.pdf, id=71, 371.3875pt x 232.87pt>
 File: report_files/figure-latex/makeGraph4-1.pdf Graphic file (type pdf)
 <use report_files/figure-latex/makeGraph4-1.pdf>
 Package pdftex.def Info: report_files/figure-latex/makeGraph4-1.pdf  used on in
-put line 242.
+put line 255.
 (pdftex.def)             Requested size: 371.3979pt x 232.87651pt.
-<report_files/figure-latex/makeGraph5-1.pdf, id=68, 562.1pt x 277.035pt>
+<report_files/figure-latex/makeGraph5-1.pdf, id=72, 562.1pt x 277.035pt>
 File: report_files/figure-latex/makeGraph5-1.pdf Graphic file (type pdf)
 <use report_files/figure-latex/makeGraph5-1.pdf>
 Package pdftex.def Info: report_files/figure-latex/makeGraph5-1.pdf  used on in
-put line 248.
+put line 261.
 (pdftex.def)             Requested size: 469.75067pt x 231.51996pt.
-<./screenshot/crime.png, id=69, 674.52pt x 504.88625pt>
+<./screenshot/crime.png, id=73, 674.52pt x 504.88625pt>
 File: ./screenshot/crime.png Graphic file (type png)
 <use ./screenshot/crime.png>
-Package pdftex.def Info: ./screenshot/crime.png  used on input line 254.
+Package pdftex.def Info: ./screenshot/crime.png  used on input line 267.
 (pdftex.def)             Requested size: 469.76266pt x 351.62292pt.
-[4 <./report_files/figure-latex/makeGraph4-1.pdf>] [5 <./report_files/figure-la
-tex/makeGraph5-1.pdf> <./screenshot/crime.png>]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 2
-87.
+[5
+
+ <./report_files/figure-latex/makeGraph4-1.pdf>] [6 <./report_files/figure-late
+x/makeGraph5-1.pdf> <./screenshot/crime.png>]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 3
+00.
 (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Overfull \hbox (0.2106pt too wide) in paragraph at lines 335--338
+Overfull \hbox (0.2106pt too wide) in paragraph at lines 348--351
 []$\T1/lmr/m/n/10 (+6) h t t p s : / / w w w . t h e g l o b e a n d m a i l . 
 c o m / c a n a d a / t o r o n t o / a r t i c le -[] t o r o n t o -[] s e es
  -[] r e c o rd -[] n u m b er -[] of -[] s h o o t i n g s -[]
  []
 
-[6
-
-]
-<./screenshot/quiz.png, id=129, 639.38875pt x 252.945pt>
-File: ./screenshot/quiz.png Graphic file (type png)
-<use ./screenshot/quiz.png>
-Package pdftex.def Info: ./screenshot/quiz.png  used on input line 384.
-(pdftex.def)             Requested size: 469.75484pt x 185.83708pt.
-<./screenshot/123.png, id=130, 631.35875pt x 816.04875pt>
-File: ./screenshot/123.png Graphic file (type png)
-<use ./screenshot/123.png>
-Package pdftex.def Info: ./screenshot/123.png  used on input line 390.
-(pdftex.def)             Requested size: 469.76074pt x 607.17883pt.
-<./screenshot/456.png, id=131, 627.34375pt x 1046.91125pt>
-File: ./screenshot/456.png Graphic file (type png)
-<use ./screenshot/456.png>
-Package pdftex.def Info: ./screenshot/456.png  used on input line 396.
-(pdftex.def)             Requested size: 389.76276pt x 650.43611pt.
-
-LaTeX Warning: Float too large for page by 23.95053pt on input line 398.
-
-<./screenshot/223.png, id=132, 638.385pt x 837.1275pt>
-File: ./screenshot/223.png Graphic file (type png)
-<use ./screenshot/223.png>
-Package pdftex.def Info: ./screenshot/223.png  used on input line 402.
-(pdftex.def)             Requested size: 469.75769pt x 616.00304pt.
-<./screenshot/45.png, id=133, 638.385pt x 611.28375pt>
-File: ./screenshot/45.png Graphic file (type png)
-<use ./screenshot/45.png>
-Package pdftex.def Info: ./screenshot/45.png  used on input line 408.
-(pdftex.def)             Requested size: 469.75769pt x 449.81516pt.
-<./screenshot/12.png, id=134, 634.37pt x 771.88374pt>
-File: ./screenshot/12.png Graphic file (type png)
-<use ./screenshot/12.png>
-Package pdftex.def Info: ./screenshot/12.png  used on input line 414.
-(pdftex.def)             Requested size: 469.76523pt x 571.59726pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 418.
 [7
 
- <./screenshot/quiz.png>] [8 <./screenshot/123.png>] [9 <./screenshot/456.png>]
-[10 <./screenshot/223.png>] [11 <./screenshot/45.png>] [12 <./screenshot/12.png
->]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 418.
+]
+<./screenshot/quiz.png, id=134, 639.38875pt x 252.945pt>
+File: ./screenshot/quiz.png Graphic file (type png)
+<use ./screenshot/quiz.png>
+Package pdftex.def Info: ./screenshot/quiz.png  used on input line 397.
+(pdftex.def)             Requested size: 469.75484pt x 185.83708pt.
+<./screenshot/123.png, id=135, 631.35875pt x 816.04875pt>
+File: ./screenshot/123.png Graphic file (type png)
+<use ./screenshot/123.png>
+Package pdftex.def Info: ./screenshot/123.png  used on input line 403.
+(pdftex.def)             Requested size: 469.76074pt x 607.17883pt.
+<./screenshot/456.png, id=136, 627.34375pt x 1046.91125pt>
+File: ./screenshot/456.png Graphic file (type png)
+<use ./screenshot/456.png>
+Package pdftex.def Info: ./screenshot/456.png  used on input line 409.
+(pdftex.def)             Requested size: 389.76276pt x 650.43611pt.
+
+LaTeX Warning: Float too large for page by 23.95053pt on input line 411.
+
+<./screenshot/223.png, id=137, 638.385pt x 837.1275pt>
+File: ./screenshot/223.png Graphic file (type png)
+<use ./screenshot/223.png>
+Package pdftex.def Info: ./screenshot/223.png  used on input line 415.
+(pdftex.def)             Requested size: 469.75769pt x 616.00304pt.
+<./screenshot/45.png, id=138, 638.385pt x 611.28375pt>
+File: ./screenshot/45.png Graphic file (type png)
+<use ./screenshot/45.png>
+Package pdftex.def Info: ./screenshot/45.png  used on input line 421.
+(pdftex.def)             Requested size: 469.75769pt x 449.81516pt.
+<./screenshot/12.png, id=139, 634.37pt x 771.88374pt>
+File: ./screenshot/12.png Graphic file (type png)
+<use ./screenshot/12.png>
+Package pdftex.def Info: ./screenshot/12.png  used on input line 427.
+(pdftex.def)             Requested size: 469.76523pt x 571.59726pt.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 431.
+[8
+
+ <./screenshot/quiz.png>] [9 <./screenshot/123.png>] [10 <./screenshot/456.png>
+] [11 <./screenshot/223.png>] [12 <./screenshot/45.png>] [13 <./screenshot/12.p
+ng>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 431.
 (./report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 418.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 418.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 431.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 431.
  ) 
 Here is how much of TeX's memory you used:
- 13074 strings out of 480608
- 192773 string characters out of 5903631
+ 13071 strings out of 480608
+ 192738 string characters out of 5903631
  490110 words of memory out of 5000000
  28599 multiletter control sequences out of 15000+600000
- 591950 words of font info for 109 fonts, out of 8000000 for 9000
+ 591784 words of font info for 107 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,6n,42p,805b,379s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local
@@ -604,10 +606,10 @@ m/lmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr17.pfb
 ></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local
 /texlive/2020/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/202
 0/texmf-dist/fonts/type1/public/lm/lmri10.pfb>
-Output written on report.pdf (12 pages, 775456 bytes).
+Output written on report.pdf (13 pages, 776104 bytes).
 PDF statistics:
- 245 PDF objects out of 1000 (max. 8388607)
- 192 compressed objects within 2 object streams
- 50 named destinations out of 1000 (max. 500000)
+ 250 PDF objects out of 1000 (max. 8388607)
+ 196 compressed objects within 2 object streams
+ 51 named destinations out of 1000 (max. 500000)
  14453 words of extra memory for PDF output out of 17280 (max. 10000000)
 
