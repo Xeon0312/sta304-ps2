@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.10.8)  9 OCT 2020 09:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.10.8)  9 OCT 2020 09:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -443,7 +443,7 @@ File: 304-simulating_files/figure-latex/makeGraph1-1.pdf Graphic file (type pdf
 )
 <use 304-simulating_files/figure-latex/makeGraph1-1.pdf>
 Package pdftex.def Info: 304-simulating_files/figure-latex/makeGraph1-1.pdf  us
-ed on input line 202.
+ed on input line 204.
 (pdftex.def)             Requested size: 433.63878pt x 289.09251pt.
 <304-simulating_files/figure-latex/makeGraph2-1.pdf, id=45, 433.62pt x 289.08pt
 >
@@ -451,7 +451,7 @@ File: 304-simulating_files/figure-latex/makeGraph2-1.pdf Graphic file (type pdf
 )
 <use 304-simulating_files/figure-latex/makeGraph2-1.pdf>
 Package pdftex.def Info: 304-simulating_files/figure-latex/makeGraph2-1.pdf  us
-ed on input line 209.
+ed on input line 211.
 (pdftex.def)             Requested size: 433.63878pt x 289.09251pt.
 <304-simulating_files/figure-latex/makeGraph3-1.pdf, id=46, 433.62pt x 289.08pt
 >
@@ -459,7 +459,7 @@ File: 304-simulating_files/figure-latex/makeGraph3-1.pdf Graphic file (type pdf
 )
 <use 304-simulating_files/figure-latex/makeGraph3-1.pdf>
 Package pdftex.def Info: 304-simulating_files/figure-latex/makeGraph3-1.pdf  us
-ed on input line 216.
+ed on input line 218.
 (pdftex.def)             Requested size: 433.63878pt x 289.09251pt.
 [2] [3 <./304-simulating_files/figure-latex/makeGraph1-1.pdf> <./304-simulating
 _files/figure-latex/makeGraph2-1.pdf>] [4 <./304-simulating_files/figure-latex/
@@ -470,7 +470,7 @@ File: 304-simulating_files/figure-latex/makeGraph4-1.pdf Graphic file (type pdf
 )
 <use 304-simulating_files/figure-latex/makeGraph4-1.pdf>
 Package pdftex.def Info: 304-simulating_files/figure-latex/makeGraph4-1.pdf  us
-ed on input line 248.
+ed on input line 250.
 (pdftex.def)             Requested size: 433.63878pt x 289.09251pt.
 <304-simulating_files/figure-latex/makeGraph5-1.pdf, id=87, 578.16pt x 289.08pt
 >
@@ -478,30 +478,30 @@ File: 304-simulating_files/figure-latex/makeGraph5-1.pdf Graphic file (type pdf
 )
 <use 304-simulating_files/figure-latex/makeGraph5-1.pdf>
 Package pdftex.def Info: 304-simulating_files/figure-latex/makeGraph5-1.pdf  us
-ed on input line 254.
+ed on input line 256.
 (pdftex.def)             Requested size: 469.75385pt x 234.8769pt.
 <./screenshot/crime.png, id=88, 674.52pt x 504.88625pt>
 File: ./screenshot/crime.png Graphic file (type png)
 <use ./screenshot/crime.png>
-Package pdftex.def Info: ./screenshot/crime.png  used on input line 260.
+Package pdftex.def Info: ./screenshot/crime.png  used on input line 262.
 (pdftex.def)             Requested size: 469.76266pt x 351.62292pt.
 [5
 
  <./304-simulating_files/figure-latex/makeGraph4-1.pdf>] [6 <./304-simulating_f
 iles/figure-latex/makeGraph5-1.pdf> <./screenshot/crime.png>]
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 2
-71.
+73.
 (/Users/xeon/Library/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 276.
+(Font)              <10> on input line 278.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 276.
+(Font)              <7> on input line 278.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 276.
+(Font)              <5> on input line 278.
 
-Underfull \hbox (badness 10000) in paragraph at lines 319--322
+Underfull \hbox (badness 10000) in paragraph at lines 321--324
 []$\T1/lmr/m/n/10 https : / / www . theglobeandmail . com / canada / toronto / 
 article -[] toronto -[] sees -[] record -[] number -[] of -[] shootings -[]
  []
@@ -509,7 +509,7 @@ article -[] toronto -[] sees -[] record -[] number -[] of -[] shootings -[]
 [7
 
 ]
-Overfull \hbox (157.4118pt too wide) in paragraph at lines 329--331
+Overfull \hbox (157.4118pt too wide) in paragraph at lines 331--333
 \T1/lmr/m/n/10 The Sur-vey link down be-low: []$https : / / docs . google . com
  / forms / d / e / 1FAIpQLScHpDE2n -[] 2QJevoEdasLFhEeWXmGuGLT8Zq7o2QyoQNS1DzcQ
  /
@@ -518,35 +518,35 @@ Overfull \hbox (157.4118pt too wide) in paragraph at lines 329--331
 <./screenshot/quiz.png, id=143, 639.38875pt x 252.945pt>
 File: ./screenshot/quiz.png Graphic file (type png)
 <use ./screenshot/quiz.png>
-Package pdftex.def Info: ./screenshot/quiz.png  used on input line 342.
+Package pdftex.def Info: ./screenshot/quiz.png  used on input line 344.
 (pdftex.def)             Requested size: 469.75484pt x 185.83708pt.
 <./screenshot/123.png, id=144, 631.35875pt x 816.04875pt>
 File: ./screenshot/123.png Graphic file (type png)
 <use ./screenshot/123.png>
-Package pdftex.def Info: ./screenshot/123.png  used on input line 348.
+Package pdftex.def Info: ./screenshot/123.png  used on input line 350.
 (pdftex.def)             Requested size: 469.76074pt x 607.17883pt.
 <./screenshot/456.png, id=145, 627.34375pt x 1046.91125pt>
 File: ./screenshot/456.png Graphic file (type png)
 <use ./screenshot/456.png>
-Package pdftex.def Info: ./screenshot/456.png  used on input line 354.
+Package pdftex.def Info: ./screenshot/456.png  used on input line 356.
 (pdftex.def)             Requested size: 389.76276pt x 650.43611pt.
 
-LaTeX Warning: Float too large for page by 23.95053pt on input line 356.
+LaTeX Warning: Float too large for page by 23.95053pt on input line 358.
 
 <./screenshot/223.png, id=146, 638.385pt x 837.1275pt>
 File: ./screenshot/223.png Graphic file (type png)
 <use ./screenshot/223.png>
-Package pdftex.def Info: ./screenshot/223.png  used on input line 360.
+Package pdftex.def Info: ./screenshot/223.png  used on input line 362.
 (pdftex.def)             Requested size: 469.75769pt x 616.00304pt.
 <./screenshot/45.png, id=147, 638.385pt x 611.28375pt>
 File: ./screenshot/45.png Graphic file (type png)
 <use ./screenshot/45.png>
-Package pdftex.def Info: ./screenshot/45.png  used on input line 366.
+Package pdftex.def Info: ./screenshot/45.png  used on input line 368.
 (pdftex.def)             Requested size: 469.75769pt x 449.81516pt.
 <./screenshot/12.png, id=148, 634.37pt x 771.88374pt>
 File: ./screenshot/12.png Graphic file (type png)
 <use ./screenshot/12.png>
-Package pdftex.def Info: ./screenshot/12.png  used on input line 372.
+Package pdftex.def Info: ./screenshot/12.png  used on input line 374.
 (pdftex.def)             Requested size: 469.76523pt x 571.59726pt.
 [8
 
@@ -570,7 +570,7 @@ ary/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></Users/xeon/Library/Ti
 nyTeX/texmf-dist/fonts/type1/public/lm/lmr10.pfb></Users/xeon/Library/TinyTeX/t
 exmf-dist/fonts/type1/public/lm/lmr12.pfb></Users/xeon/Library/TinyTeX/texmf-di
 st/fonts/type1/public/lm/lmr17.pfb>
-Output written on 304-simulating.pdf (13 pages, 699816 bytes).
+Output written on 304-simulating.pdf (13 pages, 699811 bytes).
 PDF statistics:
  221 PDF objects out of 1000 (max. 8388607)
  176 compressed objects within 2 object streams
